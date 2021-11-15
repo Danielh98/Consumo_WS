@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.actualizar">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Entry x:Name="txtCodigo" Placeholder="Ingrese el codigo" HorizontalTextAlignment="Center" Keyboard="Numeric" />
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el Nombre" HorizontalTextAlignment="Center" />
+            <Entry x:Name="txtApellido" Placeholder="Ingrese el Apellido" HorizontalTextAlignment="Center" />
+            <Entry x:Name="txtEdad" Placeholder="Ingrese la edad" HorizontalTextAlignment="Center" Keyboard="Numeric" />
+          
+
+            <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked_2" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
